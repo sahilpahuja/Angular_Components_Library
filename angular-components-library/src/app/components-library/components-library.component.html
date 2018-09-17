@@ -1,0 +1,29 @@
+<div class="components-library-wrapper">
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse show">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Item 1</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Item 2</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="p-2 bg-primary text-white">
+      Angular 6 Components Library
+    </div>
+    <div class="p-2 bg-dark text-white">
+      Button
+      Button is an extension to standard input element.
+      <div>
+        <app-button classType="primary" (buttonClickHandler)="buttonClickHandler($event)">Primary</app-button>
+        <app-button classType="secondary">Secondary</app-button>
+        <app-button classType="primary" [disabled]="'disabled'">Primary</app-button>
+      </div>
+    </div>
+  </div>
+</div>
